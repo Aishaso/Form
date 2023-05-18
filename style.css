@@ -1,0 +1,70 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(21, 21, 22);
+    background: radial-gradient(circle, rgba(21, 21, 22, 1) 0%, rgba(145, 168, 163, 0.7838322829131652) 97%);
+
+}
+
+table {
+width: 600px;
+    height: 50%;
+    text-align: center;
+    margin: 150px 351px;
+    border: solid 8px black;
+    display: inline-block;
+    border-spacing: 0;
+    border-radius: 10px;
+
+}
+
+td {
+    width:300px;
+    height: 400px;
+
+}
+
+td:first-child {
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+
+}
+
+td:nth-of-type(2) {
+    float: right;
+    color: white;
+    background-color: black;
+
+}
+
+input {
+    background-color: transparent;
+    margin-bottom: 64px;
+    padding: 10x;
+    outline: lightslategrey;
+    border: none;
+    color: white;
+}
+
+select {
+    background-color: black;
+    color: wheat;
+    outline: lightslategrey;
+    border: none;
+    margin-left: -20px;
+}
+
+input[type="submit"] {
+    background-color: lightslategray;
+    outline: none;
+    display: block;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10%;
+    width: 200px;
+
+}
